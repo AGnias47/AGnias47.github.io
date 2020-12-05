@@ -1,0 +1,164 @@
+% LaTeX resume using res.cls
+\documentclass[line,resmargin,11pt]{res}
+%\usepackage{geometry}
+%\geometry{margin=0.5in}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage[bottom=0.5in,top=0.5in, right=2in, left=0.5in]{geometry}
+\usepackage{hyperref}
+\urlstyle{same}
+
+
+\begin{document}
+\name{Andy Gnias}
+\begin{resume}
+
+\section{PROFILE}
+Software engineer with extensive development and DevSecOps experience. Knowledge of multiple languages and frameworks, with a strong ability to think Pythonically. Skilled in automating DevSecOps processes, such as packaging, deployment, and end-to-end testing for various enterprise programs. Passionate about code coverage and extensive documentation when developing new code.
+ 
+\section{EDUCATION}
+B.S. in Mechanical Engineering, June 2016 \\
+Drexel University, Philadelphia, PA \\
+GPA: 3.86 
+\section{COURSE- WORK}
+				\textbf{Software Courses:} Computer Programming (C++), Advanced Programming Techniques, Data Structures and Algorithms \\
+				\textbf{Engineering Courses:} Control Systems, Finite Element Methods, Computer Aided Design, Fluid Dynamics, Materials, Thermodynamics
+
+\section{CERTIFI-CATIONS}
+	\textbullet\ Machine Learning | Coursera Course, Stanford Online | May 2020 \\
+	\textbullet\ Reinforcement Learning | Coursera Specialization, University of Alberta | Feb 2020 \\
+	\textbullet\ Industrial Internet of Things | Lockheed Martin Pipeline Course | Oct 2018
+
+\section{SOFTWARE}
+\textbf{Languages} \\
+\textbullet\ Python, JavaScript (Node.js), C/C++, Perl, Bash, MATLAB  \\
+\textbf{Operating Systems} \\
+\textbullet\ Linux (RHEL, Ubuntu), Windows \\
+\textbf{CI / CD} \\
+\textbullet\ Jenkins, GitLab, Microsoft TFS (Azure DevOps Server) \\
+\textbf{Application Development} \\
+\textbullet\ AWS, Docker \\
+\textbf{Testing} \\
+\textbullet\ Selenium, Cucumber, TestRail \\
+\textbf{Packaging} \\
+\textbullet\ Sonatype Nexus, RPM, Python setuptools, npm \\
+\textbf{Engineering Tools} \\
+\textbullet\ ANSYS, Creo, MakerBot 3D printing, Minitab, LabVIEW, \LaTeX        
+ 
+\section{EXPERIENCE}
+\textbf{The Stratagem Group $|$ King of Prussia, PA} \\
+{\sl Software Engineer - Application Framework \& Infrastructure Program} \hfill September 2020 - Present
+	\begin{itemize} \itemsep -2pt % reduce space between items
+		\item Define and implement program-wide DevSecOps pipeline that can build, test, scan, and deploy Java and C++ applications through GitLab
+		\item Serve as scrum master for an agile development team of 8+ engineers
+	\end{itemize}
+
+{\sl Software Engineer - Automated Testing Program} \hfill September 2019 - December 2020
+	\begin{itemize} \itemsep -2pt % reduce space between items
+		\item Created an AWS Lambda application to transfer TestRail project data into into a remote TestRail instance utilizing REST API calls
+		\item Developed automated UI tests using Cucumber.js and Selenium to simulate user actions for over 40 different test scenarios
+		\item Created automated test pipeline templates in Jenkins with "plug-and-play" usability
+	\end{itemize}
+	
+{\sl Software Engineer Senior - Machine Learning Program} \hfill March 2020 - October 2020
+	\begin{itemize} \itemsep -2pt % reduce space between items
+		\item Determined useful attributes among datasets for accurate classification
+		\item Created and improved applications interacting with data through Apache Kafka
+		\item Hardened docker-compose development network to enhance functionality and stability
+		\item Developed methods for hyperparameter optimization utilizing Optuna
+	\end{itemize}
+
+\textbf{Lockheed Martin, Space Systems Company $|$ King of Prussia, PA} \\
+{\sl Software Engineer} \hfill April 2018 - August 2019 
+	\begin{itemize}  \itemsep -2pt % reduce space between items
+		\item Automated software installation, configuration, and testing as part of an agile development team
+		\item Reduced source code by implementing a process to create environment-specific packages from a template
+		\item Communicated with test users to help identify and resolve product defects
+		\item Supported weekly product deployments to a factory level test environment
+	\end{itemize}
+	
+{\sl Associate Software Engineer} \hfill September 2016 - April 2018
+	\begin{itemize}  \itemsep -2pt % reduce space between items
+		\item Maintained software archives in Nexus via RESTful API modules written in Perl
+		\item Developed and improved End-to-end tests using Selenium and C\#
+		\item Configured SSL/TLS certs for web services and applications
+	\end{itemize}
+				
+\textbf{University City Science Center $|$ Philadelphia, PA} \\
+{\sl Technical Investment Analyst} \hfill September 2014 - March 2015 
+	\begin{itemize} \itemsep -2pt
+		\item  Collaborated with local institutions to transition biomedical research into marketable products
+		\item  Prepared and submitted grant applications through the National Institute of Health (NIH) and Small Business Innovation Research (SBIR) programs
+	\end{itemize}
+				
+\textbf{Essential Medical $|$ Malvern, PA} \\
+{\sl Product Development Co-op} \hfill September 2013 - March 2014
+	\begin{itemize} \itemsep -2pt
+		\item  Built and tested 500+ vascular closure devices for sealing capability and functionality
+		\item  Wrote documentation, including Assembly Instructions and a Verification Test Plan
+		\item  Conducted product experiments in an in vitro model and assisted in an in vivo study
+	\end{itemize}
+
+\textbf{Secant Medical $|$ Perkasie, PA} \\
+{\sl Quality Engineering Co-op} \hfill September 2012 - March 2013 \\
+	\begin{itemize} \itemsep -2pt
+		\item  Validated internal test methods used to analyze various biomedical textiles
+		\item  Qualified equipment for proper installation and operational functionality (IQ/OQ)
+		\item  Wrote novel test methods that complied with USP (U.S. Pharmacopeia) standards
+	\end{itemize}
+
+\section{LAB / PROJECT EXPERIENCE}
+\textbf{Optical Diagnostics Lab, Drexel University $|$ Philadelphia, PA} \\
+{\sl Hess Undergraduate Research Scholar} \hfill June 2015 - March 2016
+	\begin{itemize}  \itemsep -2pt % reduce space between items
+		\item  Wrote a Python script to monitor vibration on lab equipment using an accelerometer connected to a Raspberry Pi
+		\item  Designed circuit board to read data from accelerometer and temperature monitor
+		\item  Developed data acquisition and control programs for oscilloscopes and temperature controlled lasers using LabVIEW
+	\end{itemize}
+
+\textbf{Drexel University and Children's Hospital of Philadelphia $|$ Philadelphia, PA} \\
+{\sl Senior Design Team Member} \hfill September 2015 - June 2016 \\
+\begin{itemize} \itemsep -2pt
+	\item  Optimized a laryngoscope blade to improve the success rate of pediatric intubation
+	\item  Developed and read input from sensors to detect pressure points on device
+	\item  Analyzed MRI scans of pediatric airway anatomy to determine optimal device curvature
+\end{itemize}
+
+\textbf{Drexel University Implant Research Center $|$ Philadelphia, PA} \\
+{\sl Lab Volunteer} \hfill April 2014 - June 2014 \\
+\begin{itemize} \itemsep -2pt
+	\item  Assisted in cleaning and preparing biomedical implants of the knee and hip for testing
+	\item  Performed photo-documentation on biomedical implants
+\end{itemize}
+				
+\section{PERSONAL PROJECTS}
+
+\textbf{Spotify Playlist Generator} $|$ \url{https://andygnias.com/SpotifyAPI} \\
+\textbullet\ Generates a Spotify playlist for a user from a text-based list of tracks
+
+\textbf{Secret Santa Selection Manager} $|$ \url{https://andygnias.com/Secret_Santa} \\
+\textbullet\ Makes Secret Santa selections for a group, considering exceptions, and emails the assignments to participants via AWS Simple Email Service (SES)
+		
+\section{LEADERSHIP \& ACTIVITIES}
+				\textbf{Phi Kappa Psi Fraternity $|$ Philadelphia, PA} \\
+				\begin{itemize} \itemsep -2pt
+				\item  Chapter President - October 2014 – May 2015
+				\item Scholarship Evaluator - March 2017 - Present
+				\item  Regional Officer Training Facilitator - February 2020
+				\end{itemize}
+				
+				\textbf{Engineering Spring in Bochum, Germany  $|$ Bochum, DE} \\
+				\begin{itemize} \itemsep -2pt
+				\item  Took classes with professors at Ruhr-Universität Bochum
+				\item Assisted PhD candidates in a lab performing research on Phase Change Slurries (PCS)
+				\end{itemize}
+
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
