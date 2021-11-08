@@ -1,13 +1,8 @@
 % LaTeX resume using res.cls
 \documentclass[line,resmargin,11pt]{res}
-%\usepackage{geometry}
-%\geometry{margin=0.5in}
-%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font 
 \usepackage[bottom=0.5in,top=0.5in, right=2in, left=0.5in]{geometry}
 \usepackage{hyperref}
 \urlstyle{same}
-
 
 \begin{document}
 \name{Andy Gnias}
@@ -17,12 +12,17 @@
 Software engineer with extensive development and DevSecOps experience. Knowledge of multiple languages and frameworks, with a strong ability to think Pythonically. Skilled in automating DevSecOps processes, such as packaging, deployment, and end-to-end testing for various enterprise programs. Passionate about code coverage and extensive documentation when developing new code.
  
 \section{EDUCATION}
+Graduate Certificate in Computer Science \\
+Temple University, Philadelphia, PA \\
+Expected Graduation: May 2023
+
 B.S. in Mechanical Engineering, June 2016 \\
 Drexel University, Philadelphia, PA \\
-GPA: 3.86 
+GPA: 3.86
+
 \section{COURSE- WORK}
-				\textbf{Software Courses:} Computer Programming (C++), Advanced Programming Techniques, Data Structures and Algorithms \\
-				\textbf{Engineering Courses:} Control Systems, Finite Element Methods, Computer Aided Design, Fluid Dynamics, Materials, Thermodynamics
+	\textbf{Graduate Courses:} Programming Techniques (Data Structures and Algorithms) \\
+	\textbf{Undergraduate Courses:} Computer Programming I and II (OOP in C++), Advanced Programming Techniques, Data Structures and Algorithms, Control Systems, Finite Element Methods, Computer Aided Design, Fluid Dynamics, Materials, Thermodynamics
 
 \section{CERTIFI-CATIONS}
 	\textbullet\ Machine Learning | Coursera Course, Stanford Online | May 2020 \\
@@ -30,34 +30,33 @@ GPA: 3.86
 	\textbullet\ Industrial Internet of Things | Lockheed Martin Pipeline Course | Oct 2018
 
 \section{SOFTWARE}
-\textbf{Languages} \\
-\textbullet\ Python, JavaScript (Node.js), C/C++, Perl, Bash, MATLAB  \\
-\textbf{Operating Systems} \\
-\textbullet\ Linux (RHEL, Ubuntu), Windows \\
-\textbf{CI / CD} \\
-\textbullet\ Jenkins, GitLab, Microsoft TFS (Azure DevOps Server) \\
-\textbf{Application Development} \\
-\textbullet\ AWS, Docker \\
-\textbf{Testing} \\
-\textbullet\ Selenium, Cucumber, TestRail \\
-\textbf{Packaging} \\
-\textbullet\ Sonatype Nexus, RPM, Python setuptools, npm \\
-\textbf{Engineering Tools} \\
-\textbullet\ ANSYS, Creo, MakerBot 3D printing, Minitab, LabVIEW, \LaTeX        
+\textbullet\ \textbf{Languages:} Python, C++, Java, JavaScript (Node.js), Perl, Bash, MATLAB  \\
+\textbullet\ \textbf{Tools:} AWS, Docker, GitLab, Jenkins, Selenium \\
+\textbullet\ \textbf{Engineering Tools:} ANSYS, Creo, MakerBot 3D printing, Minitab, LabVIEW, \LaTeX        
  
 \section{EXPERIENCE}
 \textbf{The Stratagem Group $|$ King of Prussia, PA} \\
-{\sl Software Engineer Senior - Application Framework \& Infrastructure Program} \hfill September 2020 - Present
+{\sl Tech Lead - Cloud Development Program} \hfill September 2021 - Present
 	\begin{itemize} \itemsep -2pt % reduce space between items
-		\item Define and implement program-wide DevSecOps pipeline that can build, test, scan, and deploy Java and C++ applications through GitLab
-		\item Serve as scrum master for an agile development team of 8+ engineers
+        \item Design and implement backend REST API services using Spring Boot in Java
+        \item Implement unit tests using JUnit and Mockito
+		\item Analyze existing projects for reusability on new program tasks
 	\end{itemize}
 
-{\sl Software Engineer Senior - Automated Testing Program} \hfill September 2019 - December 2020
+{\sl Software Engineer Senior - Application Framework \& Infrastructure Program} \hfill September 2020 - October 2021
 	\begin{itemize} \itemsep -2pt % reduce space between items
-		\item Created an AWS Lambda application to transfer TestRail project data into into a remote TestRail instance utilizing REST API calls
+		\item Defined and implemented program-wide DevSecOps pipeline that can build, test, scan, and package C++, Java, and Python applications through GitLab
+		\item Developed libraries in C++, Java, and Python to simplify API calls
+		\item Deployed and tested applications in an OpenShift pipeline
+		\item Served as scrum master for an agile development team
+	\end{itemize}
+
+{\sl Software Engineer Senior - Automated Testing Program} \hfill August 2019 - December 2020
+	\begin{itemize} \itemsep -2pt % reduce space between items
+		\item Created an AWS Lambda application to transfer TestRail project data  into a remote TestRail instance utilizing REST API calls
 		\item Developed automated UI tests using Cucumber.js and Selenium to simulate user actions for over 40 different test scenarios
 		\item Created automated test pipeline templates in Jenkins with "plug-and-play" usability
+		\item Presented and demonstrated custom software tools at conferences to stakeholders
 	\end{itemize}
 	
 {\sl Software Engineer Senior - Machine Learning Program} \hfill March 2020 - October 2020
@@ -99,21 +98,12 @@ GPA: 3.86
 		\item  Conducted product experiments in an in vitro model and assisted in an in vivo study
 	\end{itemize}
 
-\textbf{Secant Medical $|$ Perkasie, PA} \\
-{\sl Quality Engineering Co-op} \hfill September 2012 - March 2013 \\
-	\begin{itemize} \itemsep -2pt
-		\item  Validated internal test methods used to analyze various biomedical textiles
-		\item  Qualified equipment for proper installation and operational functionality (IQ/OQ)
-		\item  Wrote novel test methods that complied with USP (U.S. Pharmacopeia) standards
-	\end{itemize}
-
 \section{LAB / PROJECT EXPERIENCE}
 \textbf{Optical Diagnostics Lab, Drexel University $|$ Philadelphia, PA} \\
 {\sl Hess Undergraduate Research Scholar} \hfill June 2015 - March 2016
 	\begin{itemize}  \itemsep -2pt % reduce space between items
 		\item  Wrote a Python script to monitor vibration on lab equipment using an accelerometer connected to a Raspberry Pi
 		\item  Designed circuit board to read data from accelerometer and temperature monitor
-		\item  Developed data acquisition and control programs for oscilloscopes and temperature controlled lasers using LabVIEW
 	\end{itemize}
 
 \textbf{Drexel University and Children's Hospital of Philadelphia $|$ Philadelphia, PA} \\
@@ -124,41 +114,5 @@ GPA: 3.86
 	\item  Analyzed MRI scans of pediatric airway anatomy to determine optimal device curvature
 \end{itemize}
 
-\textbf{Drexel University Implant Research Center $|$ Philadelphia, PA} \\
-{\sl Lab Volunteer} \hfill April 2014 - June 2014 \\
-\begin{itemize} \itemsep -2pt
-	\item  Assisted in cleaning and preparing biomedical implants of the knee and hip for testing
-	\item  Performed photo-documentation on biomedical implants
-\end{itemize}
-				
-\section{PERSONAL PROJECTS}
-
-\textbf{Spotify Playlist Generator} $|$ \url{https://andygnias.com/SpotifyAPI} \\
-\textbullet\ Generates a Spotify playlist for a user from a text-based list of tracks
-
-\textbf{Secret Santa Selection Manager} $|$ \url{https://andygnias.com/Secret_Santa} \\
-\textbullet\ Makes Secret Santa selections for a group, considering exceptions, and emails the assignments to participants via AWS Simple Email Service (SES)
-		
-\section{LEADERSHIP \& ACTIVITIES}
-				\textbf{Phi Kappa Psi Fraternity $|$ Philadelphia, PA} \\
-				\begin{itemize} \itemsep -2pt
-				\item  Chapter President - October 2014 – May 2015
-				\item Scholarship Evaluator - March 2017 - Present
-				\item  Regional Officer Training Facilitator - February 2020
-				\end{itemize}
-				
-				\textbf{Engineering Spring in Bochum, Germany  $|$ Bochum, DE} \\
-				\begin{itemize} \itemsep -2pt
-				\item  Took classes with professors at Ruhr-Universität Bochum
-				\item Assisted PhD candidates in a lab performing research on Phase Change Slurries (PCS)
-				\end{itemize}
-
 \end{resume}
 \end{document}
-
-
-
-
-
-
-
