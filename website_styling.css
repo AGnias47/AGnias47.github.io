@@ -1,23 +1,21 @@
+/* Apply box-sizing to all elements */
 * {
   box-sizing: border-box;
 }
 
+/* Set body styles */
 body {
   margin: 0;
   font-family: Tahoma, Geneva, sans-serif;
 }
 
-h1 { 
-	font-family: Verdana, Geneva, sans-serif;
-}
-
-h2 {
-    font-family: Verdana, Geneva, sans-serif;
-}
-
+/* Set heading styles */
+h1,
+h2,
 h3 {
-	font-family: Tahoma, Geneva, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
 }
+
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
@@ -36,20 +34,32 @@ h3 {
 
 /* Change color on hover */
 .topnav a:hover {
-  background: linear-gradient(90deg, rgba(242,242,242,0.9556197478991597) 0%, rgba(147,212,223,1) 100%);
+  background: linear-gradient(90deg, rgba(242, 242, 242, 0.9556197478991597) 0%, rgba(147, 212, 223, 1) 100%);
   color: black;
 }
 
 /* Style the content */
 .content {
-  background: rgb(240,240,240);
-  background: linear-gradient(90deg, rgba(240,240,240,1) 0%, rgba(219,213,213,1) 100%);
+  background: linear-gradient(90deg, rgba(240, 240, 240, 1) 0%, rgba(219, 213, 213, 1) 100%);
   padding: 10px;
-  p { font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;} 
+}
+
+/* Set paragraph styles within content */
+.content p {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
 /* Style the footer */
 .footer {
   background-color: #f1f1f1;
   padding: 10px;
+}
+
+.content ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content li {
+  margin-bottom: 24px;
 }
