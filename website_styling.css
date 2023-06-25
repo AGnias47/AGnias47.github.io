@@ -6,14 +6,7 @@
 /* Set body styles */
 body {
   margin: 0;
-  font-family: Tahoma, Geneva, sans-serif;
-}
-
-/* Set heading styles */
-h1,
-h2,
-h3 {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
 /* Style the top navigation bar */
@@ -42,11 +35,6 @@ h3 {
 .content {
   background: linear-gradient(90deg, rgba(240, 240, 240, 1) 0%, rgba(219, 213, 213, 1) 100%);
   padding: 10px;
-}
-
-/* Set paragraph styles within content */
-.content p {
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
 /* Style the footer */
