@@ -9,6 +9,13 @@ body {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
+/* Set heading styles */
+h1,
+h2,
+h3 {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
